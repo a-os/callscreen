@@ -2,7 +2,7 @@
 
 'use strict';
 
-require('/shared/test/unit/mocks/mock_audio.js');
+require('/shared/unit_test_mocks/mock_audio.js');
 
 require('/js/audio_competing_helper.js');
 

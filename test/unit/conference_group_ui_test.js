@@ -4,8 +4,8 @@
 'use strict';
 
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_telephony.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_telephony.js');
 require('/test/unit/mock_call_screen.js');
 
 var mocksHelperForCallsHandler = new MocksHelper([

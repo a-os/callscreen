@@ -3,8 +3,8 @@
 
 'use strict';
 
-require('/shared/test/unit/mocks/dialer/mock_calls_handler.js');
-require('/shared/test/unit/mocks/dialer/mock_keypad.js');
+require('/shared/unit_test_mocks/dialer/mock_calls_handler.js');
+require('/shared/unit_test_mocks/dialer/mock_keypad.js');
 
 require('/test/unit/mock_audio_competing_helper.js');
 require('/test/unit/mock_call_screen.js');

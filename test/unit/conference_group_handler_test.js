@@ -4,14 +4,14 @@
 
 'use strict';
 
-require('/shared/test/unit/mocks/mock_navigator_moz_telephony.js');
-require('/shared/test/unit/mocks/dialer/mock_call.js');
-require('/shared/test/unit/mocks/dialer/mock_handled_call.js');
-require('/shared/test/unit/mocks/dialer/mock_calls_handler.js');
-require('/shared/test/unit/mocks/dialer/mock_lazy_l10n.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_telephony.js');
+require('/shared/unit_test_mocks/dialer/mock_call.js');
+require('/shared/unit_test_mocks/dialer/mock_handled_call.js');
+require('/shared/unit_test_mocks/dialer/mock_calls_handler.js');
+require('/shared/unit_test_mocks/dialer/mock_lazy_l10n.js');
 require('/test/unit/mock_call_screen.js');
 require('/test/unit/mock_conference_group_ui.js');
-require('/shared/test/unit/mocks/dialer/mock_font_size_manager.js');
+require('/shared/unit_test_mocks/dialer/mock_font_size_manager.js');
 
 // The ConferenceGroupHandler binds stuff when evaluated so we load it
 // after the mocks and we don't want it to show up as a leak.

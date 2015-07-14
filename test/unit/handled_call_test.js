@@ -6,21 +6,21 @@
 
 'use strict';
 
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 require('/test/unit/mock_call_screen.js');
 require('/test/unit/mock_conference_group_handler.js');
-require('/shared/test/unit/mocks/mock_audio.js');
-require('/shared/test/unit/mocks/mock_contact_photo_helper.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_icc_manager.js');
-require('/shared/test/unit/mocks/dialer/mock_contacts.js');
-require('/shared/test/unit/mocks/dialer/mock_keypad.js');
-require('/shared/test/unit/mocks/dialer/mock_utils.js');
-require('/shared/test/unit/mocks/dialer/mock_lazy_l10n.js');
-require('/shared/test/unit/mocks/dialer/mock_call.js');
-require('/shared/test/unit/mocks/dialer/mock_calls_handler.js');
-require('/shared/test/unit/mocks/dialer/mock_tone_player.js');
-require('/shared/test/unit/mocks/dialer/mock_font_size_manager.js');
-require('/shared/test/unit/mocks/mock_voicemail.js');
+require('/shared/unit_test_mocks/mock_audio.js');
+require('/shared/unit_test_mocks/mock_contact_photo_helper.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_icc_manager.js');
+require('/shared/unit_test_mocks/dialer/mock_contacts.js');
+require('/shared/unit_test_mocks/dialer/mock_keypad.js');
+require('/shared/unit_test_mocks/dialer/mock_utils.js');
+require('/shared/unit_test_mocks/dialer/mock_lazy_l10n.js');
+require('/shared/unit_test_mocks/dialer/mock_call.js');
+require('/shared/unit_test_mocks/dialer/mock_calls_handler.js');
+require('/shared/unit_test_mocks/dialer/mock_tone_player.js');
+require('/shared/unit_test_mocks/dialer/mock_font_size_manager.js');
+require('/shared/unit_test_mocks/mock_voicemail.js');
 
 require('/js/audio_competing_helper.js');
 require('/js/handled_call.js');

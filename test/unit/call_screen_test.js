@@ -4,17 +4,17 @@
 
 'use strict';
 
-require('/shared/test/unit/mocks/mock_navigator_moz_telephony.js');
-require('/shared/test/unit/mocks/mock_moz_activity.js');
-require('/shared/test/unit/mocks/dialer/mock_lazy_l10n.js');
-require('/shared/test/unit/mocks/dialer/mock_handled_call.js');
-require('/shared/test/unit/mocks/dialer/mock_call.js');
-require('/shared/test/unit/mocks/dialer/mock_calls_handler.js');
-require('/shared/test/unit/mocks/dialer/mock_font_size_manager.js');
-require('/shared/test/unit/mocks/dialer/mock_keypad.js');
-require('/shared/test/unit/mocks/dialer/mock_utils.js');
-require('/shared/test/unit/mocks/mock_settings_listener.js');
-require('/shared/js/lockscreen_connection_info_manager.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_telephony.js');
+require('/shared/unit_test_mocks/mock_moz_activity.js');
+require('/shared/unit_test_mocks/dialer/mock_lazy_l10n.js');
+require('/shared/unit_test_mocks/dialer/mock_handled_call.js');
+require('/shared/unit_test_mocks/dialer/mock_call.js');
+require('/shared/unit_test_mocks/dialer/mock_calls_handler.js');
+require('/shared/unit_test_mocks/dialer/mock_font_size_manager.js');
+require('/shared/unit_test_mocks/dialer/mock_keypad.js');
+require('/shared/unit_test_mocks/dialer/mock_utils.js');
+require('/shared/unit_test_mocks/mock_settings_listener.js');
+require('/shared/lockscreen_connection_info_manager/lockscreen_connection_info_manager.js');
 require('/test/unit/mock_conference_group_ui.js');
 
 var mocksHelperForCallScreen = new MocksHelper([
