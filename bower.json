@@ -44,6 +44,7 @@
     "telephony": "git@github.com:alivedise/telephony.git",
     "status": "git@github.com:alivedise/status.git",
     "keypad": "git@github.com:alivedise/keypad.git#~0.0.1",
-    "lockscreen_lib": "git@github.com:alivedise/lockscreen_lib.git#~0.0.1"
+    "lockscreen_lib": "git@github.com:alivedise/lockscreen_lib.git#~0.0.1",
+    "phone_types": "git@github.com:alivedise/phone_types.git#~0.0.1"
   }
 }
