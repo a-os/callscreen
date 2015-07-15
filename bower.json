@@ -43,6 +43,7 @@
     "simslot_manager": "git@github.com:alivedise/simslot_manager.git",
     "telephony": "git@github.com:alivedise/telephony.git",
     "status": "git@github.com:alivedise/status.git",
-    "keypad": "git@github.com:alivedise/keypad.git#~0.0.1"
+    "keypad": "git@github.com:alivedise/keypad.git#~0.0.1",
+    "lockscreen_lib": "git@github.com:alivedise/lockscreen_lib.git#~0.0.1"
   }
 }
